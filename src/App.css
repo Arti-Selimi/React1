@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffd2e0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.tasks{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.taskInput, .taskButton, .taskHolder i {
+  border: none;
+  padding: 5px;
+  font-size: 1rem;
+  margin: 20px;
+  border-radius: 3px;
+}
+.list, .completedTaskList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  flex: 1;
+  width: max-content;
+}
+.taskHolder{
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #7689a3;
+  padding: 10px;
+}
